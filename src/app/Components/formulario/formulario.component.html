@@ -1,0 +1,17 @@
+<main>
+  <h1>Registo de Usuario</h1>
+  <div class="form-group col-sm-3">
+    <label for="id-person">ID: </label>
+    <input type="text" name="id-person" id="id-person" class="form-control" required >
+  </div>
+  <div class="form-group col-sm-4">
+    <label for="first-name">First Name: </label>
+    <input type="text" name="first-name" id="first-name" class="form-control" placeholder="First Name" required>
+    <label for="last-name">Last Name: </label>
+    <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Last Name" required>
+  </div>
+  <div class="form-group col-sm-3">
+    <button type="submit" class="form-control btn-outline-primary" (click)="createUser()">Add</button>
+    <button type="submit" class="form-control btn-outline-primary" (click)="createUser()">Update</button>
+  </div>
+</main>
